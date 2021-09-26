@@ -1,0 +1,19 @@
+:root{
+    --red: rgb(224, 28, 28);
+    --green: green;
+    --blue: blue;
+}
+
+.h1{
+    background-color: var(--red);
+}
+
+
+.h2{
+    background-color: var(--green);
+}
+
+
+.h3{
+    background-color: var(--blue);
+}
