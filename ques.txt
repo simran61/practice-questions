@@ -1,0 +1,82 @@
+1. Create a web app where I can input a text. Now reverse the text and on clicking the button, show the output.
+
+2. Here’s an API. Fetch the name and age of user and show them on the web page. Now check weather the user is eligible for vaccination ( must be above 45 ). If yes, show the name in green colour. API - https://randomuser.me/api/?results=10
+
+3. Here’s an API. Fetch the name and gender of user and show them on the web page. Now check weather the user is male or female. If the user is a female, show the name in pink colour. API - https://randomuser.me/api/?results=10 
+
+4. Here' an API. It will give an error. Write a web app, call this API and read the error message. Show the name of the error (not whole error). API - https://randomsuser.me/api/
+
+5. Put a paragraph on web with 16px font size. Now Increase the font size by 4px and vice-versa with the help of two buttons. Now change the colour of paragraph to RED when font size is divisible by 5. ( This question was given by Pranshu (neoGrad) in my mock interview)
+Try getting font size dynamically from element without hardcoding it.
+Hint : getComputedStyle() function
+Also you can google
+
+6. Create a web app to simulate the dark mode functionality. On clicking the button, background color should change from WHITE to GREY and vice-versa.
+
+7. Create a password checker. When char goes above 10, input border should become green. Now create a button. On clicking the button, show/hide the password. ( change ......... to text and vice versa. ) HINT - you need to change the type of input field 
+
+8. Create a web app which has two input fields and two buttons. One input field will be used to take the input from the user and on the click of a button it will be displayed in h1,p, or you can use any tag of your preference. the second onput will take the color and on the click of the other button the displayed text should change to the color enterd by the user.
+Solution: https://codesandbox.io/s/inspiring-wing-nr4xn?file=/index.html
+
+9. CHECK VERY IMPORTANT (solution in ReactJS): https://abhishekgautam.notion.site/Few-More-Sample-Questions-ea12d25084564fd49a5fbe49e26f8d6c
+
+10. CHECK VERY IMPORTANT (solution in vanilla JS): https://github.com/jeetsdev/PrepQusAbhi
+
+11. CHECK VERY IMPORTANT: https://github.com/jeetsdev/PrepQusAbhi
+
+12. Create an array of 10 names. [ "Abhi", "Vishal","Aryan","John",.........upto 10 ]. Now create a button. On clicking the button, show one random name.
+Solution: https://stackblitz.com/edit/react-m2wrmh?file=src/App.js
+
+13. Create a web app where user can input his/her name and a colour. (put a list of colours from which user can choose one ). On clicking the button, show the name with the same colour which user has entered.
+
+14. Create a game where user has to guess the random number range from 1 to 10. User will input a number between 1 to 10 . On clicking the button, show the user whether he/she has guess the correct number or not. 
+Solution: https://stackblitz.com/edit/web-platform-p4xuqs?file=script.js
+
+15. Create a web app to simulates the character counter functionality of Twitter. When user starts to type something, counter should starts to decrease from 30. When counter reaches to 15, show it in yellow till 0. When counter reaches to 0, show it in red till negative number ( no min limit ). Now create a button. On clicking the button, show the input text on web page. Also, when counter is less than 0, disable the button
+
+16. Create a web app to simulates the character counter functionality of Twitter. When user starts to type something, counter should starts to decrease from 30. When counter reaches to 15, show it in yellow till 0. When counter reaches to 0, show it in red till negative number ( no min limit ). Now create a button. On clicking the button, show the input text on web page. Also, when counter is less than 0, disable the button. 
+Solution: https://replit.com/@ManojAsarsa/ManojAsarsaBuild-Ques-11#index.html?embed=1&output=1
+
+17. Have a text, and three buttons left, right and center. On clicking right button the text should move to right. Similarly for left and center.
+Solution: https://stackblitz.com/edit/web-platform-stevmh?file=script.js
+
+18. Create two input fields where users can input numbers, on clicking button. Highlight the input field whose value is more(You can change the background colour for highlighting). Also, print a message saying which number is the highest.
+
+19. Import three fonts from Google fonts. Then create a p tag with some text inside it. Now, create three buttons with these font names. On the clicking button, the text font should change accordingly. Note: You have to import fonts in under 15 minutes too.
+Solution: https://stackblitz.com/edit/react-extmp2?file=src/style.css
+
+20. MEMORY GAME: https://dbz-flip-card.netlify.app/
+
+21. You need to create three input fields and an output field. First, two input fields will take numbers as input. The last input field will take the operator as input. Operators are +, -, × and /. If the third input field value is + then show in the output field the sum of the first input value + second input value. Similarly, if we enter  ×, - and / in the third input field. Note: Button is not required. Bonus for this question: limit the last input field to take only +,-,× and /. Show error if user gives any other input.
+SOLUTION (IN REACT JS): https://stackblitz.com/edit/react-k5n1zm?file=src/App.js
+SOLUTION (IN VANILLA JS): https://github.com/pritam-kr/interview_proctice/blob/main/shubham/q9.html
+
+22. Create a web app where I can input a text. Now, create three buttons h1, h2, h3. When I click on any of the button, the text should become h1, h2, or h3.
+ Then create a fetch button. when clicked it should take the input text that is been display as the output of part 1. and then display the translation is the same area. 
+SOLUTION (IN REACT JS): https://stackblitz.com/edit/react-pxdpsr?file=src/App.js
+the text passed with the url should be from the output field
+Now fetch url is getting text from output. 
+1. Fetch button will be disabled if user hasn't click the h1, h2, h3 button.
+2. if input is empty, then also fetch will be disabled. 
+SOLUTION: https://stackblitz.com/edit/react-pxdpsr?file=src/App.js 
+
+23. You have to create a counter. Create two buttons + and -. On clicking the + button increment the counter. Similarly for -. Now highlight the counter: 
+i. If the counter value is multiple of 3 then highlight the counter with Red colour.
+ii. If the counter value is multiple of 5 then highlight it with Green colour.
+iii. If the counter value is multiple of both 5 and 3 then highlight it with Yellow colour.
+SOLUTION: https://github.com/pritam-kr/interview_proctice/blob/main/shubham/q10.html
+
+24: Add a text field. Insert a sentence. Now create a button. On clicking the button, highlight the word in the sentence with most number of characters. if two words have the same number of characters then we have to show both words
+SOLUTION: https://stackblitz.com/edit/react-fknfpt?file=src/App.js
+
+25. You have to create a text field and three button. Suppose your input text is github. On clicking the first button the text should become like this GITHUB. On clicking the second button the text should become like this Github. On clicking the third button the text should become like this github.
+SOLUTION: https://github.com/pritam-kr/interview_proctice/blob/main/shubham/q11.html
+
+26. Create an input field where the user can enter his/her full birthday. You have to calculate user age. Now create a button to check the following condition.1. If the age is greater than 18 years then show a message to the user that You can drive.
+2. If the age is less than 18 years then show a message that You can't drive.
+BONUS- If the user enters a future date then show an error.
+SOLUTION: https://github.com/pritam-kr/interview_proctice/blob/main/shubham/q15.html
+
+
+
+
